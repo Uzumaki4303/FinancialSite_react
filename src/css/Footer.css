@@ -1,20 +1,19 @@
-.footer,.ft-container{
+.footer{
     margin: 0;
     padding: 0;
     height: auto;
-    display:grid;
-    justify-content: center;
-
+    display: grid;
 }
 .ft-container{
-    width: 1200px; 
-    display: flex;
+    min-width: 850px;
+    display:inline-flex;
     justify-content: space-evenly;
 }
 
 
 .ft-ul{
-    padding: 15px;
+    display: flex;
+    flex-direction: column;
     text-transform: capitalize;
 
 }
@@ -34,7 +33,9 @@
     color: aqua;
 }
 .get-in-touch{
-    padding: 30px;
+    margin-top: 16px;
+    width: 220px;
+    height: fit-content;
     text-transform: capitalize;
 }
 .get-in-touch p{

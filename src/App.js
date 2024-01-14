@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
-// import Footer from './components/Footer';
-// import FrontPage from './components/FrontPage';
+import Footer from './components/Footer';
+import FrontPage from './components/FrontPage';
 import Navbar from './components/Navbar';
 import AboutUs from './components/AboutUs';
 
@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      <FrontPage/>
       <AboutUs/>
-      {/* <FrontPage/> */}
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
