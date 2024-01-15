@@ -1,0 +1,55 @@
+.feature{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fe-container{
+    max-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    gap: 20px;
+
+}
+.fe-content-1,.fe-content-2,.fe-content-3{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 35px 20px 40px;
+    background: rgba(211, 212, 212, 0.4);
+}
+.fe-content-1:hover, .fe-content-2:hover, .fe-content-3:hover{
+    background: rgb(26, 223, 213);
+    transition: all ease 200ms;
+
+}
+.fe-info{
+    display: flex;
+    font-size: 18px;
+    align-items: flex-start;
+}
+.fe-img{
+    min-width: 58px;
+    margin-top: 21px;
+}
+.fe-content-1 p, .fe-content-2 p, .fe-content-3 p{
+    margin: 0;
+    color: black;
+}
+.fe-content-1 h4,.fe-content-2 h4,.fe-content-3 h4{
+    margin-left: 10px;
+    color: black;
+}
+.fe-content-1:hover .fe-img, .fe-content-2:hover .fe-img, .fe-content-3:hover .fe-img{
+    filter: brightness(0) invert(1);
+}
+.fe-content-1:hover h4, .fe-content-2:hover h4, .fe-content-3:hover h4{
+    color: white;
+}
+.fe-content-1:hover p, .fe-content-2:hover p, .fe-content-3:hover p{
+    color: white;
+}

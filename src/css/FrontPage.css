@@ -48,6 +48,10 @@
 }
 .fp-btn1:hover,.fp-btn2:hover{
     background-color: rgb(16, 175, 238);
+    transition: all ease 500ms;
+    border: transparent;
+    color: white;
+
 }
 .fp-btn2{
     margin-left: 10px;

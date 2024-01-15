@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import FrontPage from './components/FrontPage';
 import Navbar from './components/Navbar';
 import AboutUs from './components/AboutUs';
+import Features from './components/Features';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <FrontPage/>
+      <Features/>
       <AboutUs/>
       <Footer/>
     </div>

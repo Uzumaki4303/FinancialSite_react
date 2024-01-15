@@ -41,6 +41,8 @@
 }
 .login-btn:hover ,.member-btn:hover{
     background-color: rgb(16, 175, 238);
+    transition: all ease 500ms;
+    color: white;
 }
 .member-btn{
     width: 200px; 
