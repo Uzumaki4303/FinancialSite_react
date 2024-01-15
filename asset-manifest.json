@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/FinancialSite_react/static/css/main.658b53c2.css",
-    "main.js": "/FinancialSite_react/static/js/main.b2eaf75e.js",
+    "main.css": "/FinancialSite_react/static/css/main.04bbfbb8.css",
+    "main.js": "/FinancialSite_react/static/js/main.76ec8a7b.js",
     "static/js/787.f5e007ae.chunk.js": "/FinancialSite_react/static/js/787.f5e007ae.chunk.js",
     "static/media/about.png": "/FinancialSite_react/static/media/about.17eab344b4b5df96ea6f.png",
     "static/media/croods-user-interface.png": "/FinancialSite_react/static/media/croods-user-interface.77abfd72ce65a9d8ad62.png",
     "static/media/insta.svg": "/FinancialSite_react/static/media/insta.03f5e0b0b937dbbd4c30ff3d6e2bc900.svg",
+    "static/media/person-icon.svg": "/FinancialSite_react/static/media/person-icon.a6d137206dd1ccdb6ca4f581fe8b0ba2.svg",
     "static/media/twitter.svg": "/FinancialSite_react/static/media/twitter.f30ccd2aad93161ef546f85bbf23a10a.svg",
     "index.html": "/FinancialSite_react/index.html",
     "static/media/facebook.svg": "/FinancialSite_react/static/media/facebook.d8eabe63e140e3cb68e2af1de3f80e86.svg",
-    "main.658b53c2.css.map": "/FinancialSite_react/static/css/main.658b53c2.css.map",
-    "main.b2eaf75e.js.map": "/FinancialSite_react/static/js/main.b2eaf75e.js.map",
+    "main.04bbfbb8.css.map": "/FinancialSite_react/static/css/main.04bbfbb8.css.map",
+    "main.76ec8a7b.js.map": "/FinancialSite_react/static/js/main.76ec8a7b.js.map",
     "787.f5e007ae.chunk.js.map": "/FinancialSite_react/static/js/787.f5e007ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.658b53c2.css",
-    "static/js/main.b2eaf75e.js"
+    "static/css/main.04bbfbb8.css",
+    "static/js/main.76ec8a7b.js"
   ]
 }
