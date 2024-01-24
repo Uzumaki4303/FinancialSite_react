@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FinancialSite_react/static/css/main.9b605343.css",
-    "main.js": "/FinancialSite_react/static/js/main.a7457b38.js",
+    "main.css": "/FinancialSite_react/static/css/main.84f5ceff.css",
+    "main.js": "/FinancialSite_react/static/js/main.72e38d93.js",
     "static/js/787.f5e007ae.chunk.js": "/FinancialSite_react/static/js/787.f5e007ae.chunk.js",
     "static/media/about.png": "/FinancialSite_react/static/media/about.17eab344b4b5df96ea6f.png",
     "static/media/media bg-cover.png": "/FinancialSite_react/static/media/media bg-cover.81e0ff802185a2c945dd.png",
@@ -16,12 +16,12 @@
     "index.html": "/FinancialSite_react/index.html",
     "static/media/play_icon.svg": "/FinancialSite_react/static/media/play_icon.e1cc1b5fcf9b5fb58c4530815170cbfa.svg",
     "static/media/facebook.svg": "/FinancialSite_react/static/media/facebook.d8eabe63e140e3cb68e2af1de3f80e86.svg",
-    "main.9b605343.css.map": "/FinancialSite_react/static/css/main.9b605343.css.map",
-    "main.a7457b38.js.map": "/FinancialSite_react/static/js/main.a7457b38.js.map",
+    "main.84f5ceff.css.map": "/FinancialSite_react/static/css/main.84f5ceff.css.map",
+    "main.72e38d93.js.map": "/FinancialSite_react/static/js/main.72e38d93.js.map",
     "787.f5e007ae.chunk.js.map": "/FinancialSite_react/static/js/787.f5e007ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b605343.css",
-    "static/js/main.a7457b38.js"
+    "static/css/main.84f5ceff.css",
+    "static/js/main.72e38d93.js"
   ]
 }
