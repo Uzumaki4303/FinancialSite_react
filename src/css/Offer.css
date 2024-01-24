@@ -1,0 +1,107 @@
+.offer{
+    margin-top: 100px;
+    text-align: center;
+}
+.offer p{
+    color: gray;
+}
+.off-container{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+    overflow: hidden;
+
+}
+.off-container h5{
+    color: gray;
+}
+.off-container1 ,.off-container2{
+    overflow: auto;
+    padding: 20px; 
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.off-container1 ,.off-container2 h4,h5{
+   margin: 0;
+}
+.off-price{
+    width: 150px;
+    gap: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+}
+.off-price h1{
+    font-size: 40px;
+}
+.off-price div{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.off-price div h5{
+    margin: 0;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    color: aqua;
+}
+.off-section{
+    width: 260px;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+span{
+    margin-top: 5px;
+    width: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgb(0, 202, 0);
+    
+}
+.off-sec{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    gap: 5px;
+    font-weight: bold;
+}
+#lbl-2{
+    background: rgb(153, 155, 153);
+}
+.tick-img{
+    filter: brightness(0) invert(1);
+    width: 15px;
+}
+.off-btn1{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 7px;
+    border:  transparent;
+    background: rgb(22, 182, 223);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.off-btn-a{
+    margin: 40px;
+}
+.off-btn1:hover{
+    background: rgb(32, 184, 45);
+    transition: all ease 500;
+}

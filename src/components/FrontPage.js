@@ -10,7 +10,6 @@ export default function FrontPage() {
                 <div className='detail'>
                     
                 <p className='info'> Financial <br/>assistance With <br/>True purpose </p>
-                    {/* <br/> */}
                 <p className='sub-info'>
                     we know how large object will act, <br/>but things on small scale.
                 </p>

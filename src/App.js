@@ -1,10 +1,14 @@
 // import logo from './logo.svg';
 // import './App.css';
-import Footer from './components/Footer';
-import FrontPage from './components/FrontPage';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Offer from './components/Offer';
+import Review from './components/Review';
+import FrontPage from './components/FrontPage';
 import AboutUs from './components/AboutUs';
-import Features from './components/Features';
+import Feature from './components/Feature';
+import Strategy from './components/Strategy';
+import RegisterForm from './components/Register_form';
 
 
 function App() {
@@ -12,8 +16,12 @@ function App() {
     <div className="App">
       <Navbar/>
       <FrontPage/>
-      <Features/>
+      <Feature/>
+      <Strategy/>
+      <Review/>
+      <Offer/>
       <AboutUs/>
+      <RegisterForm/>
       <Footer/>
     </div>
   );

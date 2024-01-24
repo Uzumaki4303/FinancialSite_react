@@ -1,5 +1,5 @@
 .fp-container{
-    margin: 0;
+    margin-top: 20px;
     padding: 0;
     display: flex;
     justify-content: space-between; 
@@ -14,7 +14,6 @@
 .fp-content{
     margin: 80px 0px;
     width: 600px;
-    height: 500px;
     position: relative;
     left: 50px;
     display: flex;
@@ -23,43 +22,47 @@
     align-items: center;
     text-transform: capitalize;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .info{
     margin: 0;
-    font-size: 50px;
-
+    font-size: 40.96px;
+    font-weight: 800;
+    line-height: 54.96px;
+    letter-spacing: 0.14px;
+    font-family: 'Montserrat';   
 }
 .sub-info{
     color: rgb(92, 90, 90);
     font-size: 22px;
-
+    
 }
 .fp-btn1{
-    width: 150px;
-    height: 40px;
-    background-color: aqua;
+    width: auto;
+    padding: 20px 50px;
+    background-color: rgb(16, 175, 238);
     color: white;
-    border-radius: 20px;
+    border-radius: 50px;
     border: transparent;
     font-size: 12px;
     font-weight: bold;
     text-transform: capitalize;
 }
 .fp-btn1:hover,.fp-btn2:hover{
-    background-color: rgb(16, 175, 238);
+    background-color: rgb(10, 104, 141);
     transition: all ease 500ms;
-    border: transparent;
     color: white;
-
+    cursor: pointer;
 }
+
 .fp-btn2{
     margin-left: 10px;
-    width: 150px;
-    height: 40px;
+    width: auto;
+    padding: 18px 50px;
     color: aqua;
-    border-radius: 20px;
-    border: 2px solid aqua;
+    border-radius: 50px;
+    border: 2px solid #00ffff;
     font-size: 12px;
     font-weight: bold;
     text-transform: capitalize;

@@ -1,0 +1,83 @@
+
+.registration{
+    margin-top: 50px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.registration h4,h1{
+    margin: 0;
+}
+.registration-form{
+    width: 500px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+    
+}
+.form-container{
+    width: 100%;
+    aspect-ratio: 2/0.4;
+    padding: 80PX;
+    background-image: url(../images/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+form{
+    overflow: auto;
+    margin-top: 30PX;
+    gap: 20px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-input{
+    opacity: 0.5;
+    height: 30px;
+}
+textarea{
+    width: 495px;
+    opacity: 0.5;
+}
+.form-btn{
+    margin-top: 30px;
+    width: 200px;
+    padding: 13px 0;
+    cursor: pointer;
+    background: rgb(4, 199, 248);
+    border: transparent;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.form-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+}
+.form-info p{
+    margin: 0;
+}
+.form-info h1{
+    max-width: 570px;
+}
+.form-info button{
+    width: 200px;
+    padding: 13px 0;
+    background: rgb(4, 199, 248);
+    border: transparent;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background: green;
+}
+

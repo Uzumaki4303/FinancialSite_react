@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/Features.css';
 import  person_icon from '../images/person-icon.svg';
  
-export default function Features() {
+export default function Feature() {
   return (
     <>
         <div className='feature'>

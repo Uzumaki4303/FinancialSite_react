@@ -1,0 +1,57 @@
+.strategy{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.st-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.st p{
+    margin: 0;
+}
+.st-img{
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.st-img-bg{
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    bottom: 0%;
+    z-index: 0;
+    background: linear-gradient(to bottom right ,rgb(145, 8, 8),rgb(0, 68, 255));
+}
+.st-img1{
+    z-index: 1;
+    max-width: 700px;
+    aspect-ratio: 5/2;
+    overflow: hidden;
+
+}
+.st-img2{
+    z-index: 4;
+    width: 15px;
+    margin-left: 2px;
+}
+.st-img a{
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(16, 175, 238);
+}

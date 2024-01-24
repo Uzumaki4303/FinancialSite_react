@@ -7,9 +7,6 @@
     justify-content:space-evenly;
     align-items: center;
 }
-.brand-name{
-    font-family:'Times New Roman', Times, serif;
-}
 .nav-container{
     display: flex;
     margin-right: 100px;
@@ -19,6 +16,7 @@
     list-style: none;
 }
 .nav-a{
+    color: gray;
     text-decoration: none;
     font-weight: bold;
 }
@@ -43,6 +41,7 @@
     background-color: rgb(16, 175, 238);
     transition: all ease 500ms;
     color: white;
+    cursor: pointer;
 }
 .member-btn{
     width: 200px; 
