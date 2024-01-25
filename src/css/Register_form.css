@@ -57,10 +57,20 @@ textarea{
     font-weight: bold;
 }
 .form-info{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
+    display:flex;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: space-between;
     align-items: center;
+    overflow: hidden;
+}
+
+.form-info1{
+    max-width: 570px;
+}
+.form-info2{
+    width: min-content;
+    padding: 0 40px 0 0;
 }
 .form-info p{
     margin: 0;

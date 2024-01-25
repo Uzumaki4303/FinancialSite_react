@@ -67,3 +67,8 @@
     font-weight: bold;
     text-transform: capitalize;
 }
+
+@media screen and (max-width : 1200px) {
+   
+
+}

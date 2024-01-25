@@ -1,26 +1,62 @@
 import React from 'react';
 import '../css/Navbar.css';
+import hamburger_img from '../images/humburger icon.svg';
+import shopping_img from '../images/shopping cart.svg';
+import search_img from '../images/search.svg';
+import { hover } from '@testing-library/user-event/dist/hover';
+import cross from '../images/cross.png';
 
 export default function Navbar() {
+ 
+    function hamburger_on(e) {
+        let a = document.querySelectorAll('.nav-container');
+        a[0].style.left = '0';
+        a[0].style.transition=' all .5s';
+        // a[0].style.border= '2px solid red';
+        document.querySelectorAll('.cross_icon')[0].style.display = 'inherit';
+        document.querySelectorAll('#mobile-nav-li')[1].style.display = 'none';
+        document.querySelectorAll('#mobile-nav-li')[2].style.display = 'none';
+        document.querySelectorAll('#mobile-nav-li')[3].style.display = 'none';
+        e.preventDefault();
+    }
+
+    function hamburger_off(e) {
+        document.querySelectorAll('#mobile-nav-li')[1].style.display = 'inherit';
+        document.querySelectorAll('#mobile-nav-li')[2].style.display = 'inherit';
+        document.querySelectorAll('#mobile-nav-li')[3].style.display = 'inherit';
+        document.querySelectorAll('.nav-container')[0].style.left = '-100%';
+        document.querySelectorAll('.nav-container')[0].style.transition = 'all ease .5s';
+        e.preventDefault();
+    }
+
   return (
-    // <div>Navbar</div>
     <>
         <div className='Navbar'>
             <h2 className='brand-name'>BrandName</h2>
             <div className='nav-container'>
-                {/* <ul className='nav-ul'> */}
+                    <a href=""><img className='cross_icon' id='mobile-nav-li' src={cross} alt="" onClick={hamburger_off}/></a>
+                    <h2 className='mobile-brand-name'>BrandName</h2>
+
                     <li className='nav-li'><a href="#" className='nav-a'>Home</a></li>
                     <li className='nav-li'><a href="#" className='nav-a'>Product</a></li>
                     <li className='nav-li'><a href="#" className='nav-a'>About</a></li>
                     <li className='nav-li'><a href="#" className='nav-a'>Contact</a></li>          
-                {/* </ul> */}
             </div>
                 <br/>
                 <div className='nav-btn'>
                     <button type="" className='login-btn'>Login</button>
                     <button type="" className='member-btn'>Become a member</button>
                 </div>
+
+                <div className='mobile-nav'>
+                    <a href="" id='search_img'><img id='mobile-nav-li' src={search_img} alt=""/></a>
+                    <a href="" id='shopping_img'><img id='mobile-nav-li' src={shopping_img} alt=""/></a>
+                    <a href="" id='hamburger_img' onClick={hamburger_on}><img id='mobile-nav-li' src={hamburger_img} alt=""/></a>
+                
+                </div> 
+                    
         </div>
+
     </>
   )
 }
