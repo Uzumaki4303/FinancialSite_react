@@ -1,30 +1,19 @@
 {
   "files": {
-    "main.css": "/FinancialSite_react/static/css/main.2e233ad9.css",
-    "main.js": "/FinancialSite_react/static/js/main.b1bb2b9d.js",
+    "main.css": "/FinancialSite_react/static/css/main.c352092c.css",
+    "main.js": "/FinancialSite_react/static/js/main.3972cadf.js",
     "static/js/787.f5e007ae.chunk.js": "/FinancialSite_react/static/js/787.f5e007ae.chunk.js",
-    "static/media/about.png": "/FinancialSite_react/static/media/about.17eab344b4b5df96ea6f.png",
-    "static/media/media bg-cover.png": "/FinancialSite_react/static/media/media bg-cover.81e0ff802185a2c945dd.png",
     "static/media/croods-user-interface.png": "/FinancialSite_react/static/media/croods-user-interface.77abfd72ce65a9d8ad62.png",
-    "static/media/user-review-profile.png": "/FinancialSite_react/static/media/user-review-profile.0a9b9080ab5ce8d16762.png",
-    "static/media/insta.svg": "/FinancialSite_react/static/media/insta.03f5e0b0b937dbbd4c30ff3d6e2bc900.svg",
-    "static/media/person-icon.svg": "/FinancialSite_react/static/media/person-icon.a6d137206dd1ccdb6ca4f581fe8b0ba2.svg",
-    "static/media/empty star.svg": "/FinancialSite_react/static/media/empty star.cf4e849e971ff01c943ff783b223462f.svg",
     "static/media/shopping cart.svg": "/FinancialSite_react/static/media/shopping cart.aa963632789fd06813e6859535f4a191.svg",
     "static/media/search.svg": "/FinancialSite_react/static/media/search.3927e673632681860071cf187d99746b.svg",
-    "static/media/twitter.svg": "/FinancialSite_react/static/media/twitter.f30ccd2aad93161ef546f85bbf23a10a.svg",
-    "static/media/filled star.svg": "/FinancialSite_react/static/media/filled star.d15ef4a88db80377af087a63b2e27a89.svg",
-    "static/media/tick.svg": "/FinancialSite_react/static/media/tick.3a2f510f9ea6c0b22e30055e17d5af4e.svg",
     "index.html": "/FinancialSite_react/index.html",
-    "static/media/play_icon.svg": "/FinancialSite_react/static/media/play_icon.e1cc1b5fcf9b5fb58c4530815170cbfa.svg",
-    "static/media/facebook.svg": "/FinancialSite_react/static/media/facebook.d8eabe63e140e3cb68e2af1de3f80e86.svg",
     "static/media/humburger icon.svg": "/FinancialSite_react/static/media/humburger icon.b05e68e1f71a645e951206cde7a57ec9.svg",
-    "main.2e233ad9.css.map": "/FinancialSite_react/static/css/main.2e233ad9.css.map",
-    "main.b1bb2b9d.js.map": "/FinancialSite_react/static/js/main.b1bb2b9d.js.map",
+    "main.c352092c.css.map": "/FinancialSite_react/static/css/main.c352092c.css.map",
+    "main.3972cadf.js.map": "/FinancialSite_react/static/js/main.3972cadf.js.map",
     "787.f5e007ae.chunk.js.map": "/FinancialSite_react/static/js/787.f5e007ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e233ad9.css",
-    "static/js/main.b1bb2b9d.js"
+    "static/css/main.c352092c.css",
+    "static/js/main.3972cadf.js"
   ]
 }
