@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import Navbar from './components/Navbar';
-// import FrontPage from './components/FrontPage';
+import FrontPage from './components/FrontPage';
 // import Feature from './components/Feature';
 // import Strategy from './components/Strategy';
 // import Review from './components/Review';
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      {/* <FrontPage/> */}
+      <FrontPage/>
       {/* <Feature/> */}
       {/* <Strategy/> */}
       {/* <Review/> */}

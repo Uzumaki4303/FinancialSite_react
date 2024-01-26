@@ -7,6 +7,7 @@
     justify-content:space-evenly;
     align-items: center;
 }
+
 .nav-container{
     display: flex;
     margin-right: 100px;
@@ -69,9 +70,10 @@
     position: absolute;
     width: 30px;
     top: 10px;
-    right: 30px;
+    left: 85%;
 }
 .mobile-brand-name{
+    font-size: 22px;
     display: none;
     position: absolute;
     top: 0;
@@ -80,7 +82,7 @@
 
 
 /* Responsive Navbar */
-@media screen and (max-width : 1200px) {
+@media screen and ( max-width : 850px) {
     .nav-container,.login-btn,.member-btn{
         display: none;
     }
@@ -101,7 +103,7 @@
         color: white;
     }
     .nav-a:hover{
-    color: aqua;
+        color: aqua;
     }
     .nav-container{
         position: fixed;
