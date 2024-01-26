@@ -54,3 +54,32 @@
 .fe-content-1:hover p, .fe-content-2:hover p, .fe-content-3:hover p{
     color: white;
 }
+
+@media screen and (max-width : 850px) {
+    .feature{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .fe-container{
+        padding: 10px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .fe-content-1, .fe-content-2, .fe-content-3{
+        width: 60%;
+        box-shadow: 0 0 5px 2px rgb(224, 222, 222);
+    }
+    .fe-info{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+    .fe-info h4{
+        margin: 0;
+    }
+    
+}

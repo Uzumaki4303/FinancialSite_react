@@ -2,9 +2,9 @@
 // import './App.css';
 import Navbar from './components/Navbar';
 import FrontPage from './components/FrontPage';
-// import Feature from './components/Feature';
-// import Strategy from './components/Strategy';
-// import Review from './components/Review';
+import Feature from './components/Feature';
+import Strategy from './components/Strategy';
+import Review from './components/Review';
 // import Offer from './components/Offer';
 // import AboutUs from './components/AboutUs';
 // import RegisterForm from './components/Register_form';
@@ -16,9 +16,9 @@ function App() {
     <div className="App">
       <Navbar/>
       <FrontPage/>
-      {/* <Feature/> */}
-      {/* <Strategy/> */}
-      {/* <Review/> */}
+      <Feature/>
+      <Strategy/>
+      <Review/>
       {/* <Offer/> */}
       {/* <AboutUs/> */}
       {/* <RegisterForm/> */}
