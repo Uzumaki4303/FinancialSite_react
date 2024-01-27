@@ -5,10 +5,10 @@ import FrontPage from './components/FrontPage';
 import Feature from './components/Feature';
 import Strategy from './components/Strategy';
 import Review from './components/Review';
-// import Offer from './components/Offer';
+import Offer from './components/Offer';
 // import AboutUs from './components/AboutUs';
-// import RegisterForm from './components/Register_form';
-// import Footer from './components/Footer';
+import RegisterForm from './components/Register_form';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,10 +19,10 @@ function App() {
       <Feature/>
       <Strategy/>
       <Review/>
-      {/* <Offer/> */}
+      <Offer/>
       {/* <AboutUs/> */}
-      {/* <RegisterForm/> */}
-      {/* <Footer/> */}
+      <RegisterForm/>
+      <Footer/>
     </div>
   );
 }

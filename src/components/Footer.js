@@ -26,7 +26,7 @@ export default function Footer() {
                         <li className='ft-li'><a href="/">about us</a></li>
                         <li className='ft-li'><a href="/">carrier</a></li>
                         <li className='ft-li'><a href="/">we are hiring</a></li>
-                            <li className='ft-li'><a href="/">blog</a></li>
+                        <li className='ft-li'><a href="/">blog</a></li>
                     </ul>
                 </div>
                 <div className='features'>

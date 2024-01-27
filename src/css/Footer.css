@@ -5,7 +5,6 @@
     display: grid;
 }
 .ft-container{
-    min-width: 850px;
     display:inline-flex;
     justify-content: space-evenly;
 }
@@ -56,4 +55,38 @@
     justify-content: center;
     text-transform: capitalize;
     color: gray;
+}
+
+@media screen and (max-width : 850px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .ft-container{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .compani-info , .features , .resources , .get-in-touch{
+        margin-left: 20px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ft-ul{
+        padding: 0;
+    }
+    .ft-msg{
+        border: 2px solid red;
+        padding: 0;
+        margin: 0;
+        width: 80%;
+        text-align: center;
+    }
+    
 }

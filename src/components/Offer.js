@@ -65,7 +65,7 @@ export default function Offer() {
                 </div>
 
                 <div className="off-container2">
-                    <h1>STANDRAD</h1>
+                    <h1 id="off-container2-h1">STANDRAD</h1>
                     <h5>Oraganize across all apps by hand</h5>
                     <div className="off-price">
                         <h1>19</h1>

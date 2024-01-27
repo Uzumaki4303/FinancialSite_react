@@ -26,7 +26,7 @@ export default function Navbar() {
         document.querySelectorAll('#mobile-nav-li')[3].style.display = 'inherit';
         document.querySelectorAll('.nav-container')[0].style.left = '-100%';
         document.querySelectorAll('.nav-container')[0].style.transition = 'all ease .5s';
-        document.querySelectorAll('.strategy')[0].style.display = 'inherit';
+        document.querySelectorAll('.strategy')[0].style.display = 'flex';
         e.preventDefault();
     }
 
