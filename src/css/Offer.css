@@ -85,7 +85,6 @@ span{
     background: rgb(153, 155, 153);
 }
 .tick-img{
-    filter: brightness(0) invert(1);
     width: 15px;
 }
 .off-btn1{
@@ -108,8 +107,13 @@ span{
 
 @media screen and (max-width : 850px) {
     .offer{
+        margin-top: 50px;
         display: flex;
         flex-direction: column;
+    }
+    .offer p{
+        color: gray;
+        padding: 0 20px;
     }
     .off-container{
         margin: 0;
@@ -119,8 +123,8 @@ span{
     }
     .off-container1, .off-container2{
         margin: 0;
-        padding: 0;
-        width: 90%;
+        padding: 10px 0;
+        width: 80%;
         gap: 0;
     }
    
@@ -130,11 +134,11 @@ span{
     }
     .off-section{
         width: fit-content;
-        padding: 0;
+        padding: 10px 0;
     }
     .off-sec{
         font-size: 13px;
-        padding: 0 5px;
+        padding: 2px 5px;
     }
     .off-sec span{
         width: 10px;

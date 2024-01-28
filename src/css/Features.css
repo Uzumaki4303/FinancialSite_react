@@ -21,9 +21,11 @@
     flex-direction: column;
     padding: 0px 35px 20px 40px;
     background: rgba(211, 212, 212, 0.4);
+    box-shadow: 0 0 5px 2px rgb(224, 222, 222);
+
 }
 .fe-content-1:hover, .fe-content-2:hover, .fe-content-3:hover{
-    background: rgb(26, 223, 213);
+    background-color: rgb(16, 175, 238);
     transition: all ease 200ms;
     cursor: pointer;
 

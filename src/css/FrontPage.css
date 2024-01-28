@@ -68,6 +68,7 @@
 
 @media screen and (max-width : 850px) {
     .fp-container{
+        margin-top: 100px;
         width: 100%;
         display: flex;
         flex-direction: column;

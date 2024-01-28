@@ -1,6 +1,5 @@
 import React from 'react';
 import '../css/Footer.css';
-// import '../css/newFooter.css';
 
 import facebook_img from '../images/facebook.svg';
 import insta_img from '../images/insta.svg';

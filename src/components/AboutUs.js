@@ -17,7 +17,7 @@ export default function AboutUs() {
                 <div className='about-container2'>
                     <img className='container2-img' src={about_img} alt="about_img"/>
                     <div className='container2-info'>
-                        <h1 className='container2-h1'>A rethink of how we<br/>work</h1>
+                        <h1 className='container2-h1'>A rethink of how we<br/> work</h1>
                         <p className='container2-p'>
                             Slate helps you see how many more days <br/>
                             you need to work to teach your financial <br/>
