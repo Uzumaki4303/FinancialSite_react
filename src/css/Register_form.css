@@ -34,13 +34,20 @@ form{
     justify-content: center;
 }
 
-.form-input{
-    opacity: 0.5;
+.form-input {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: dimgray;
     height: 30px;
 }
+
 textarea{
     max-width: 495px;
-    opacity: 0.5;
+    background: white;
+    border: none;
+    border-radius: 5px;
 }
 .form-btn{
     margin-top: 30px;
@@ -75,18 +82,23 @@ textarea{
 .form-info h1{
     max-width: 570px;
 }
-.form-info button{
-    width: 200px;
-    padding: 13px 0;
+.form-btn1:hover ,.form-btn2:hover{
+    letter-spacing: 2px;
     background-color: rgb(16, 175, 238);
-    border: transparent;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(16, 175, 238) 0px 0px 10px 0px;
 }
-button:hover{
-    background-color: rgb(10, 104, 141);
-    transition: all ease 500ms;
+.form-btn1,.form-btn2{
+    width: 200px; 
+    padding: 12px 12px;
+    margin-left: 15px; 
+    border-radius: 10px;
+    border: transparent;
+    background-color: rgb(16, 175, 238);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize
 }
 
 @media screen and (max-width : 850px) {
@@ -117,13 +129,14 @@ button:hover{
         box-sizing: border-box;
     }
     
-    .form-input::placeholder{
-        color: black;
-        font-weight: 800px;
-    }
     .form-btn{
         width: 100%;
-        max-width: 285px;
+        max-width: 250px;
+    }
+    .form-btn1{
+        width: auto;
+        max-width: 320px;
+        margin: 0;
     }
     .form-info{
         margin: 0;

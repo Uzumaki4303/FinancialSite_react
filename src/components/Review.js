@@ -17,8 +17,12 @@ export default function Review() {
             <div className='testimonials'>
                 <img  className='user-img' src={user_icon} alt=""/>
                 <p>
-                    Slate helps you see how many more days you need <br/>
-                    to work to teach your financial goal for the month and year.
+                    {/* Slate helps you see how many more days you need <br/> */}
+                    {/* to work to teach your financial goal for the month and year. */}
+                
+                    "MoneyMatters Guidance Has beena reliable partner
+                    in managing my investment .Their Commitment to client 
+                    success and financial expertise make them stand out in the industry"
                 </p>
                 <div className='rating'>
                     <img src={filled_star} alt=""/>

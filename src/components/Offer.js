@@ -52,16 +52,16 @@ export default function Offer() {
                                 <img className="tick-img" src={tick_icon} alt="" />
                             </span>
                             <label for="">
-                                Email and community <br />
+                                Email and community <br/>
                                 support
                             </label>
                         </div>
                     </div>
-                    <a href="/" className="off-btn-a">
+                    <div className="off-btn-a">
                         <button className="off-btn1" type="submit">
                             Try for free
                         </button>
-                    </a>
+                    </div>
                 </div>
 
                 <div className="off-container2">
@@ -110,11 +110,11 @@ export default function Offer() {
                             </label>
                         </div>
                     </div>
-                    <a href="/" className="off-btn-a">
+                    <div className="off-btn-a">
                         <button className="off-btn1" type="submit">
                             Buy Now
                         </button>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/FrontPage.css'
 import image from '../images/croods-user-interface.png';
-
+import front_img from '../images/front_img.jpg';
 export default function FrontPage() {
   return (
     <>
@@ -20,7 +20,7 @@ export default function FrontPage() {
                 </div>
             </div>
             <div className='fp-img'>
-                <img src={image} alt="not" className='fp-img1'/>
+                <img src={front_img} alt="Image not load" className='fp-img1'/>
             </div>
         </div>
     </>

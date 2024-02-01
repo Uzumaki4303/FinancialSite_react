@@ -28,6 +28,9 @@
     border-radius: 10px;
     overflow: hidden;
 }
+.off-container1:hover , .off-container2:hover{
+    box-shadow: 0px 0px 20px 1px aqua;
+}
 .off-container1 ,.off-container2 h4,h5{
    margin: 0;
 }
@@ -55,11 +58,12 @@
     color: aqua;
 }
 .off-section{
-    width: 260px;
-    padding: 0 30px;
+    width: 300px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+
 
 }
 span{
@@ -87,22 +91,26 @@ span{
 .tick-img{
     width: 15px;
 }
+.off-btn1:hover{
+    letter-spacing: 2px;
+    background-color: rgb(16, 175, 238);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(16, 175, 238) 0px 5px 10px 0px;
+}
 .off-btn1{
-    width: 200px;
-    padding: 15px 0;
-    border-radius: 7px;
-    border:  transparent;
-    background: rgb(22, 182, 223);
+    width: 200px; 
+    padding: 12px 12px;
+    margin-left: 15px; 
+    border-radius: 10px;
+    border: transparent;
+    background-color: rgb(16, 175, 238);
     color: white;
-    font-weight: 700;
-    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize
 }
 .off-btn-a{
     margin: 40px;
-}
-.off-btn1:hover{
-    background: rgb(32, 184, 45);
-    transition: all ease 500;
 }
 
 @media screen and (max-width : 850px) {

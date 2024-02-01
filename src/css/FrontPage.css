@@ -1,74 +1,76 @@
 .fp-container{
-    margin-top: 20px;
-    padding: 0;
+    margin: 0;
+    padding: 20px;
     display: flex;
     justify-content: space-between; 
+    background: #cfcaca;
 }
 .fp-img{
     display: flex;
     overflow: hidden;
+    width: 58%;
 }
 .fp-img1{
     min-width: 500px;
+    border-radius: 50px 150px 50px 150px;
 }
 .fp-content{
     margin: 80px 0px;
     width: 600px;
-    left: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-transform: capitalize;
     font-weight: bold;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .info{
+    align-items: end;
     margin: 0;
     font-size: 40.96px;
     font-weight: 800;
-    line-height: 54.96px;
-    letter-spacing: 0.14px;
-    font-family: 'Montserrat';   
 }
 .sub-info{
     color: rgb(92, 90, 90);
-    font-size: 22px;
+    font-size: 20px;
 }
-.fp-btn1{
-    width: auto;
-    padding: 20px 50px;
-    background-color: rgb(16, 175, 238);
-    color: white;
+.fp-btn1 {
+    width: 200px;
+    padding: 18px 35px;
     border-radius: 50px;
-    border: transparent;
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: capitalize;
-}
-.fp-btn1:hover,.fp-btn2:hover{
-    background-color: rgb(10, 104, 141);
-    transition: all ease 500ms;
-    color: white;
     cursor: pointer;
-}
-
-.fp-btn2{
-    margin-left: 10px;
-    width: auto;
-    padding: 18px 50px;
-    color: rgb(0, 153, 255);
-    border-radius: 50px;
-    border: 1px solid rgb(0, 153, 255);
+    border: 0;
+    box-shadow: rgb(16, 175, 238) 0px 2px 1px 0px;
+    text-transform: uppercase;
     font-size: 12px;
-    font-weight: bold;
-    text-transform: capitalize;
-}
+    transition: all 0.5s ease;
+  }
+.fp-btn1:hover , .fp-btn2:hover{
+    letter-spacing: 1px;
+    background-color: rgb(16, 175, 238);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(16, 175, 238) 0px 5px 10px 0px;
 
+}
+.fp-btn2{
+    width: 160px;
+    padding: 18px 30px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: rgb(0, 153, 255);
+    border:0;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: rgb(16, 175, 238) 0px 2px 1px 0px;
+    font-size: 12px;
+    transition: all 0.5s ease;
+}
 @media screen and (max-width : 850px) {
     .fp-container{
-        margin-top: 100px;
+        margin-top: 75px;
+        padding: 20px 0;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -100,9 +102,6 @@
         margin: 0;
         font-size: 30.96px;
         font-weight: 800;
-        line-height: 40.96px;
-        letter-spacing: 0.14px;
-        font-family: 'Montserrat';
     }
     .sub-info{
         width: 270px;
@@ -124,9 +123,13 @@
     .fp-img{
         margin-top: 6%;
         overflow:hidden;
+        width: 100%;
+        justify-content: center;
     }
     .fp-img1{
         min-width: 200px;
         max-width: 320px;
+        aspect-ratio: 1/0.8;
+        border-radius: 10px;
     }
 }

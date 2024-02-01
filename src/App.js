@@ -1,3 +1,4 @@
+import '../src/App.css';
 import Navbar from './components/Navbar';
 import FrontPage from './components/FrontPage';
 import Feature from './components/Feature';

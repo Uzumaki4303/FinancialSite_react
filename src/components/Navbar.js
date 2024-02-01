@@ -7,7 +7,7 @@ import cross from '../images/cross.png';
 
 export default function Navbar() {
  
-    function hamburger_on(e) {
+    function mobileNav_on(e) {
         document.querySelectorAll('.nav-container')[0].style.left = '0';
         document.querySelectorAll('.nav-container')[0].style.transition=' all ease .5s';
         document.querySelectorAll('.cross_icon')[0].style.display = 'inherit';
@@ -20,7 +20,7 @@ export default function Navbar() {
         e.preventDefault();
     }
 
-    function hamburger_off(e) {
+    function mobileNav_off(e) {
         document.querySelectorAll('.cross_icon')[0].style.display = 'none';
         document.querySelectorAll('#mobile-nav-li')[1].style.display = 'inherit';
         document.querySelectorAll('#mobile-nav-li')[2].style.display = 'inherit';
@@ -39,10 +39,10 @@ export default function Navbar() {
   return (
     <>
         <div className='Navbar'>
-            <h2 className='brand-name'>BrandName</h2>
+            <h2 className='brand-name'>MoneyMatter</h2>
             <div className='nav-container'>
-                    <a href="#"><img className='cross_icon' id='mobile-nav-li' src={cross} alt="" onClick={hamburger_off}/></a>
-                    <h2 className='mobile-brand-name'>BrandName</h2>
+                    <a href="#"><img className='cross_icon' id='mobile-nav-li' src={cross} alt="" onClick={mobileNav_off}/></a>
+                    <h2 className='mobile-brand-name'>MoneyMatter</h2>
 
                     <li className='nav-li'><a href="#" className='nav-a'>Home</a></li>
                     <li className='nav-li'><a href="#" className='nav-a'>Product</a></li>
@@ -58,7 +58,7 @@ export default function Navbar() {
                 <div className='mobile-nav'>
                     <a href="#" id='search_img'><img id='mobile-nav-li' src={search_img} alt=""/></a>
                     <a href="#" id='shopping_img'><img id='mobile-nav-li' src={shopping_img} alt=""/></a>
-                    <a href="#" id='hamburger_img' onClick={hamburger_on}><img id='mobile-nav-li' src={hamburger_img} alt=""/></a>
+                    <a href="#" id='hamburger_img' onClick={mobileNav_on}><img id='mobile-nav-li' src={hamburger_img} alt=""/></a>
                 
                 </div> 
                     

@@ -17,7 +17,7 @@ export default function Register_form() {
               <input className='form-input' type='time' defaultValue='04:00 AM' placeholder='Select Time' required/>
             </div>
               <textarea rows="5" cols="50" placeholder='Message'></textarea>
-              <button className='form-btn' type="submit">Book Appointment</button>
+              <button className='form-btn1' type="submit">Book Appointment</button>
         </form>
           </div>
         <div className='form-info'>
@@ -26,7 +26,7 @@ export default function Register_form() {
             <p>the quick fox jumps over the lazy dog</p>  
           </div>
           <div className='form-info2'>
-            <button type="button">Contact Us</button>          
+            <button className='form-btn2' type="button">Contact Us</button>          
           </div>
         </div>
     </div>
