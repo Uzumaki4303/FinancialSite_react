@@ -5,7 +5,7 @@ import tick_icon from "../images/tick.svg";
 export default function Offer() {
     return (
         <div className="offer">
-            <h1>Pricing</h1>
+            <h1 className="offer-h1">Pricing</h1>
             <p className="offer-p1">
                 Problem trying to resolve the comflict between <br />
                 the two major realms of Classical physics : Newtonian mechanics

@@ -12,7 +12,7 @@
 }
 .fp-img1{
     min-width: 500px;
-    border-radius: 50px 150px 50px 150px;
+    border-radius: 10px 180px 10px 180px;
 }
 .fp-content{
     margin: 80px 0px;
@@ -70,7 +70,7 @@
 @media screen and (max-width : 850px) {
     .fp-container{
         margin-top: 75px;
-        padding: 20px 0;
+        padding: 50px 0;
         width: 100%;
         display: flex;
         flex-direction: column;

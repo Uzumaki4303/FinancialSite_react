@@ -46,11 +46,19 @@
     object-fit: contain;
 }
 .ft-msg{
-    padding: 40px;
+    margin: 30px 35% 50px;
+    width: fit-content;
+    text-decoration: none;
     display: flex;
+    cursor: pointer;
     justify-content: center;
-    text-transform: capitalize;
+    text-transform:none;
     color: gray;
+    font-size: 18px;
+    text-align: center;
+}
+.ft-msg:hover{
+    color: rgb(38, 209, 209);
 }
 
 @media screen and (max-width : 850px) {
@@ -70,7 +78,7 @@
     }
     .compani-info , .features , .resources , .get-in-touch{
         margin-left: 30px;
-        width: 200px;
+        width: 203px;
         display: flex;
         flex-direction: column;
         justify-content: center;

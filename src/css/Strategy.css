@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    font-weight: 500;
 }
 .st-container{
     width: 100%;

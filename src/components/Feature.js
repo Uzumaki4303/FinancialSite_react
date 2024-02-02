@@ -12,33 +12,36 @@ export default function Feature() {
                         <a href="/">
                             <img className='fe-img' id='fe-img' src={person_icon} alt=""/>
                         </a>
-                        <h4>The quick fox jump over the <br/>lazy dog</h4>
+                        <h4>Personalized Financial <br/>Guidance</h4>
                     </div>
                     <p>
-                        The quick fox jump over the lazy dog,
-                        The quick fox jump over the lazy dog
+                        Tailored financial advice to meet your 
+                        unique goals and circumstances.
+
                     </p>
                 </div>
 
                 <div className='fe-content-2'>
                     <div className='fe-info'>
                         <img className='fe-img' src={person_icon} alt=""/>
-                        <h4>The quick fox jump over the <br/>lazy dog</h4>
+                        <h4>Education for Financial Empowerment</h4>
                     </div>
                     <p>
-                        The quick fox jump over the lazy dog,
-                        The quick fox jump over the lazy dog
+                        Informative resources to enhance your financial
+                        literacy and make informed decisions.
+
                     </p>
                 </div>
 
                 <div className='fe-content-3'>
                     <div className='fe-info'>
                         <img className='fe-img' src={person_icon} alt=""/>
-                        <h4>The quick fox jump over the <br/>lazy dog</h4>
+                        <h4>Investment Portfolio <br/>Analysis</h4>
                     </div>
                     <p>
-                        The quick fox jump over the lazy dog,
-                        The quick fox jump over the lazy dog
+                        Detailed analysis of your investment portfolio 
+                        to maximize returns and minimize risks.
+
                     </p>
                 </div>
                 

@@ -48,7 +48,7 @@ export default function Footer() {
 
                 </div>
             </div>
-                <h3 className='ft-msg'>Made with love by frontend all right reserved</h3>
+                <a className='ft-msg' href='https://github.com/Uzumaki4303'>Made by https://github.com/Uzumaki4303</a>
         </div>
     </>
   )
