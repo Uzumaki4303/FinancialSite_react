@@ -13,8 +13,8 @@ export default function Register_form() {
             <div className='registration-form'>
               <input className='form-input' type="text" placeholder='Full Name' required/> 
               <input className='form-input' type='email' placeholder='email' required/>
-              <input className='form-input' type='date' placeholder='Select Date' required/>
-              <input className='form-input' type='time' defaultValue='04:00 AM' placeholder='Select Time' required/>
+              <input className='form-input' type='date' defaultValue={"2024-01-01"} required/>
+              <input className='form-input' type='time' defaultValue={"13:00"} required/>
             </div>
               <textarea rows="5" cols="50" placeholder='Message'></textarea>
               <button className='form-btn1' type="submit">Book Appointment</button>
