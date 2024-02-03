@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 .offer-h1{
     width: 200px;
     padding: 10px;
@@ -157,7 +158,6 @@ span{
 .off-btn1{
     width: 200px; 
     padding: 12px 12px;
-    margin-left: 15px; 
     border-radius: 10px;
     border: transparent;
     background-color: rgb(16, 175, 238);
@@ -188,7 +188,7 @@ span{
     }
     .off-container1, .off-container2{
         margin: 0;
-        padding: 10px 0;
+        padding: 20px;
         width: 80%;
         gap: 0;
     }

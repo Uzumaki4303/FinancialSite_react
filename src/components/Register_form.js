@@ -2,7 +2,6 @@ import React from 'react';
 import '../css/Register_form.css';
 
 export default function Register_form() {
-
   return (
     <div className='registration'>
         <div className='form-container'>
@@ -13,8 +12,8 @@ export default function Register_form() {
             <div className='registration-form'>
               <input className='form-input' type="text" placeholder='Full Name' required/> 
               <input className='form-input' type='email' placeholder='email' required/>
-              <input className='form-input' type='date' defaultValue={"2024-01-01"} required/>
-              <input className='form-input' type='time' defaultValue={"13:00"} required/>
+              <input className='form-input' type='date'  required/>
+              <input className='form-input' type='time' defaultValue={"12:00"} required/>
             </div>
               <textarea rows="5" cols="50" placeholder='Message'></textarea>
               <button className='form-btn1' type="submit">Book Appointment</button>

@@ -35,12 +35,13 @@ form{
 }
 
 .form-input {
+    padding: 5px;
     border: none;
     border-radius: 5px;
     box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
     outline: none;
     color: dimgray;
-    height: 30px;
+    height: 25px;
 }
 
 textarea{
@@ -125,6 +126,7 @@ textarea{
         overflow: hidden;
     }
     .form-input{
+        padding: 5px;
         width: 100%;
         box-sizing: border-box;
     }

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/AboutUs.css';
-import about_img from '../images/about.png';
+// import about_img from '../images/about.png';
+import about_img from '../images/new_about.png';
 
 export default function AboutUs() {
   return (
@@ -8,10 +9,6 @@ export default function AboutUs() {
             <div className='about-us'>
                 <div className='about-container1'>
                     <h1 className='container1-h1'>About Us</h1>
-                    {/* <p className='container1-p'>
-                        Problem trying to resolve the comflict between <br/>
-                        the two major realms of Classical physics : Newtonian mechanics
-                    </p> */}
                 </div>
 
                 <div className='about-container2'>
