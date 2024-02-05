@@ -46,7 +46,7 @@
     object-fit: contain;
 }
 .ft-msg{
-    margin: 30px 35% 50px;
+    margin: 30px 42% 50px;
     width: fit-content;
     text-decoration: none;
     display: flex;
@@ -54,7 +54,7 @@
     justify-content: center;
     text-transform:none;
     color: gray;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 }
 .ft-msg:hover{

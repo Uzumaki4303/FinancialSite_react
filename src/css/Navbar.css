@@ -109,7 +109,7 @@
         padding: 10px;  
     }
     .nav-container ,.nav-a{
-        color: rgb(42, 47, 48);
+        color: rgb(0, 0, 0);
     }
     .nav-a:hover{
         color: aqua;
@@ -125,7 +125,7 @@
         display: inherit;
         flex-direction: column;
         align-items: center;
-        backdrop-filter: blur(30px);
+        backdrop-filter: blur(8px);
     }
     .cross_icon{
         display: inherit;

@@ -61,6 +61,7 @@ textarea{
     color: white;
     font-weight: bold;
 }
+/* 
 .form-info{
     display:flex;
     margin-top: 20px;
@@ -82,17 +83,16 @@ textarea{
 }
 .form-info h1{
     max-width: 570px;
-}
-.form-btn1:hover ,.form-btn2:hover{
+} */
+.form-btn1:hover{
     letter-spacing: 2px;
     background-color: rgb(16, 175, 238);
     color: hsl(0, 0%, 100%);
     box-shadow: rgb(16, 175, 238) 0px 0px 10px 0px;
 }
-.form-btn1,.form-btn2{
+.form-btn1{
     width: 200px; 
     padding: 12px 12px;
-    margin-left: 15px; 
     border-radius: 10px;
     border: transparent;
     background-color: rgb(16, 175, 238);
@@ -140,19 +140,6 @@ textarea{
         max-width: 320px;
         margin: 0;
     }
-    .form-info{
-        margin: 0;
-        min-width: 250px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
 
-    }
-    .form-info2{
-        padding: 0 10px;
-        margin-top: 30px;
-    }
 }
 
